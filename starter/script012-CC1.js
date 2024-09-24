@@ -16,3 +16,14 @@
 //    Mark est plus élevé que celui de John ? true").
 //
 // BONNE CHANCE 😀
+const poidsMark = 80;
+const poidsJohn = 100;
+const tailleMark = 166;
+const tailleJohn = 186;
+
+const bmiMark = poidsMark/tailleMark^2;
+const bmiJohn = poidsJohn/tailleJohn^2;
+
+const bmiSup = true;
+
+console.log(`Est-ce que le BMI de Mark est plus élévé que celui de John ? ${bmiSup}`)
