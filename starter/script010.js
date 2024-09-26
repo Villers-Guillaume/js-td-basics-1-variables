@@ -6,6 +6,9 @@
 const now = 2019;
 const ageJohn = 28;
 const ageMark = 33;
+let yearJohn;
+let yearMark;
+
 // Opérateurs mathématiques
 
 // 2. Affectez à yearJohn sa date de naissance (en la calculant à partir de l'année courante et de son âge). Faites de même pour yearMark. Ensuite, affichez la date de naissance de John et "Mark est né en …".
