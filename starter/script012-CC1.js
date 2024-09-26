@@ -26,4 +26,4 @@ const bmiJohn = poidsJohn/tailleJohn^2;
 
 const bmiSup = true;
 
-console.log(`Est-ce que le BMI de Mark est plus élévé que celui de John ? ${bmiSup}`)
+console.log(`Est-ce que le BMI de Mark est plus élévé que celui de John ? ${bmiSup}`);
