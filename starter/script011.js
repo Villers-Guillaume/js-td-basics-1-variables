@@ -18,6 +18,11 @@ console.log(`x = ${x} et y = ${y}`);
 
 // Autres opérateurs
 // 4. Utilisez un opérateur de comparaison (comme >, <, ==, etc.) pour comparer les valeurs de deux variables et affichez le résultat.
+const comparaison1 = x==y;
+const comparaison2 = x>y;
+const comparaison3 = x<y;
+console.log(comparaison1, comparaison2, comparaison3);
+
 if (x > y) {
     console.log("X est plus grand que Y");
 }
