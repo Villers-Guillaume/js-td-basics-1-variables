@@ -23,8 +23,8 @@ age = "vingt-huit";
 job = "conducteur";
 console.log(`${firstName} est un ${job} de ${age} ans. Est-il marrié ? ${isMarried}`)
 // 5. Affichez une boîte de dialogue demandant "Quel est son nom de famille ?" pour permettre à l'utilisateur d'entrer le nom de famille de John. Stockez ce nom dans une variable lastName, puis affichez "Le nom de famille de John est … (le nom
-prompt("Quel est son nom de famille ?")
-const lastName = "";
+const lastName = prompt("Quel est son nom de famille ?");
+alert(`Vous avez dit : ${lastName}`);
 console.log(`Le nom de famille de John est ${lastName}`);
 
 
