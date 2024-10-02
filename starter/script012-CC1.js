@@ -18,9 +18,11 @@
 // BONNE CHANCE 😀
 const poidsMark = 80;
 const poidsJohn = 100;
-const tailleMark = 166;
-const tailleJohn = 186;
+const tailleMark = 1.66;
+const tailleJohn = 1.86;
+
 
 const bmiMark = poidsMark/(tailleMark*tailleMark);
-const bmiJohn = poidsJohn/(tailleJohn*tailleJohn);
+const bmiJohn = poidsJohn/Math.pow(tailleJohn,2);
+
 console.log(`Est-ce que le BMI de Mark est plus élévé que celui de John ? ${bmiMark>bmiJohn}`);
