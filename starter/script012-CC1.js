@@ -22,7 +22,19 @@ const tailleMark = 1.66;
 const tailleJohn = 1.86;
 
 
-const bmiMark = poidsMark/(tailleMark*tailleMark);
-const bmiJohn = poidsJohn/Math.pow(tailleJohn,2);
+const bmiMark = poidsMark / (tailleMark * tailleMark);
+const bmiJohn = poidsJohn / Math.pow(tailleJohn, 2);
 
-console.log(`Est-ce que le BMI de Mark est plus élévé que celui de John ? ${bmiMark>bmiJohn}`);
+console.log(`Le BMI de Mark est ${bmiMark}`);
+console.log(Le BMI de John est ${bmiJohn}`);
+console.log(`Est-ce que le BMI de Mark est plus élévé que celui de John ? ${bmiMark > bmiJohn}`);
+
+if (bmiMark <= 18) {
+    console.log("Ton BMI est inférieur ou égal à 18")
+} else if (bmiMark <= 25) {
+    console.log("Ton BMI est supérieur à 18 mais inférieur ou égal à 25")
+} else if (bmiMark <= 35) {
+    console.log("Ton BMI est supérieur à 25 mais inférieur ou égal à 35")
+} else {
+    console.log("Ton BMI est supérieur à 35")
+}
